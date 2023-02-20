@@ -2,18 +2,18 @@
     "$schema": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json",
     "architecture": {
         "64bit": {
-            "hash": "a6a37ea41acf10cab656579fd96f273f238846c09e449a528b7395a2dbcefe32",
+            "hash": "325685706f66a4b7458db8e8b98d66f64850d2d90d48447a50b2041d456755b3",
             "installer": {
                 "script": "Rename-Item \"$dir\\zvm-x86_64-windows.exe\" \"zvm.exe\""
             },
-            "url": "https://github.com/gaetschwartz/zvm/releases/download/0.2.6/zvm-x86_64-windows.exe"
+            "url": "https://github.com/gaetschwartz/zvm/releases/download/0.2.7/zvm-x86_64-windows.exe"
         },
         "arm64": {
-            "hash": "2cae10ef1f91d44a5f4e618fe4683ec911f2961fb0d30c060ef7a393a786df7a",
+            "hash": "aa68c20e76181dca4994a3ca409ef664477b854fee300b338705e1d48d65333c",
             "installer": {
                 "script": "Rename-Item \"$dir\\zvm-aarch64-windows.exe\" \"zvm.exe\""
             },
-            "url": "https://github.com/gaetschwartz/zvm/releases/download/0.2.6/zvm-aarch64-windows.exe"
+            "url": "https://github.com/gaetschwartz/zvm/releases/download/0.2.7/zvm-aarch64-windows.exe"
         }
     },
     "autoupdate": {
@@ -38,5 +38,5 @@
     },
     "homepage": "https://github.com/gaetschwartz/zvm",
     "license": "MIT",
-    "version": "0.2.6"
+    "version": "0.2.7"
 }
