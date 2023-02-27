@@ -22,13 +22,13 @@
                 "hash": {
                     "url": "$url.sha256"
                 },
-                "url": "https://github.com/gaetschwartz/zvm/releases/download/$version/zvm-x86_64-windows.exe"
+                "url": "https://github.com/gaetschwartz/zvm/releases/download/v$version/zvm-x86_64-windows.exe"
             },
             "arm64": {
                 "hash": {
                     "url": "$url.sha256"
                 },
-                "url": "https://github.com/gaetschwartz/zvm/releases/download/$version/zvm-aarch64-windows.exe"
+                "url": "https://github.com/gaetschwartz/zvm/releases/download/v$version/zvm-aarch64-windows.exe"
             }
         }
     },
